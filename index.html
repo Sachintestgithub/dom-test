@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1 class="filterable">Filterable Gallery</h1>
+
+    <!-- -------------------------------------------------- -->
+    
+      <h3 class="add-product">Add Product</h3>
+
+      <!-- --------------------------------------------------------------- -->
+
+      <div class="main-section">
+        Enter Image URL <input type="text" />
+        Select Type
+        <select>
+          <option>Headphone</option>
+          <option>Laptop</option>
+          <option>Mobile</option>
+        </select>
+        <button class="add">ADD</button>
+      </div>
+
+      <!-- --------------------------------------------------------------- -->
+<!-- 
+      <div class="four-btn">
+        <button class="all" id="inline">All</button>
+        <button class="head" id="inline">Headphone</button>
+        <button class="lap" id="inline">Laptop</button>
+        <button class="mobi" id="inline">Mobile</button>
+      </div> -->
+
+
+      
+<!-- ---------------------------------------------------------------------------------- -->
+<!-- <div class="container">
+<div class="gallery-filter">
+    <div class="item">All</div>
+    <div class="item">Headphone</div>
+    <div class="item">Laptop</div>
+    <div class="item">Mobiles</div>
+</div>
+
+<div class="gallery-image">
+    <div class="image-item"><img src="\image\headp1.jpg"></div>
+     <img src="\image\headp1.jpg">
+    <img src="\image\lapis1.jpg">
+    <img src="\image\mobi1.jpg"> -->
+<!-- </div>
+
+</div> --> 
+
+<section>
+    <ul>
+        <li class="list active" data-filter="all">All </li>
+        <li class="list" data-filter="headphone">Headphone</li>
+        <li class="list" data-filter="laptop">Laptop</li>
+        <li class="list" data-filter="mobile">Mobile</li>
+    </ul>
+
+
+<div class="product">
+    <div class="itembox" data-item="headphone"><img src="\image\headp1.jpg"></div>
+    <div class="itembox" data-item="headphone"><img src="\image\lapis1.jpg"></div>
+    <div class="itembox" data-item="laptop"><img src="\image\lapis1.jpg"></div>
+    <div class="itembox" data-item="mobile"><img src="\image\mobi2.jpg"></div>
+
+
+    <div class="itembox" data-item="headphone"><img src="\image\headp2.jpg"></div>
+    <div class="itembox" data-item="headphone"><img src="\image\lapis2.jpg"></div>
+    <div class="itembox" data-item="laptop"><img src="\image\lapis1.jpg"></div>
+    <div class="itembox" data-item="mobile"><img src="\image\mobi1.jpg"></div>
+</div>
+    
+</section>
+    <script src="app.js"></script>
+  </body>
+</html>
